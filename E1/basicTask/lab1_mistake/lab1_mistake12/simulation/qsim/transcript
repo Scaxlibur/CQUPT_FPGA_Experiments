@@ -1,0 +1,32 @@
+# do cnt10.do 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cnt10
+# 
+# Top level modules:
+# 	cnt10
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cnt10_vlg_sample_tst
+# -- Compiling module cnt10_vlg_check_tst
+# -- Compiling module cnt10_vlg_vec_tst
+# 
+# Top level modules:
+# 	cnt10_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.cnt10_vlg_vec_tst 
+# Loading work.cnt10_vlg_vec_tst
+# Loading work.cnt10
+# Loading cycloneiii_ver.cycloneiii_io_obuf
+# Loading cycloneiii_ver.cycloneiii_io_ibuf
+# Loading cycloneiii_ver.cycloneiii_lcell_comb
+# Loading altera_ver.dffeas
+# Loading work.cnt10_vlg_sample_tst
+# Loading work.cnt10_vlg_check_tst
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from cnt10_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from cnt10_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /cnt10_vlg_vec_tst File: cnt10.vwf.vt
+# Simulation passed !
+# ** Note: $finish    : cnt10.vwf.vt(201)
+#    Time: 1 us  Iteration: 0  Instance: /cnt10_vlg_vec_tst/tb_out

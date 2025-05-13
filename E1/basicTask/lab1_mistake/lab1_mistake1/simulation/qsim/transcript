@@ -1,0 +1,12 @@
+# do 123.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module \123 
+# 
+# Top level modules:
+# 	\123 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: Waveform.vwf.vt(29): near "123": syntax error, unexpected INTEGER NUMBER, expecting IDENTIFIER or automatic or TYPE_IDENTIFIER or static
+# ** Error: c:/altera/13.1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./123.do line 4
