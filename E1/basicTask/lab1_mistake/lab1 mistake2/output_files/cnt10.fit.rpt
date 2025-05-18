@@ -1,6 +1,6 @@
 Fitter report for cnt10
-Mon Nov 11 12:18:36 2019
-Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+Tue May 13 15:27:11 2025
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
 ---------------------
@@ -64,26 +64,26 @@ applicable agreement for further details.
 
 
 
-+----------------------------------------------------------------------------------+
-; Fitter Summary                                                                   ;
-+------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Mon Nov 11 12:18:36 2019       ;
-; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Full Version ;
-; Revision Name                      ; cnt10                                       ;
-; Top-level Entity Name              ; cnt10                                       ;
-; Family                             ; Cyclone III                                 ;
-; Device                             ; EP3C16Q240C8                                ;
-; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 6 / 15,408 ( < 1 % )                        ;
-;     Total combinational functions  ; 5 / 15,408 ( < 1 % )                        ;
-;     Dedicated logic registers      ; 4 / 15,408 ( < 1 % )                        ;
-; Total registers                    ; 4                                           ;
-; Total pins                         ; 5 / 161 ( 3 % )                             ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 516,096 ( 0 % )                         ;
-; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                             ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
-+------------------------------------+---------------------------------------------+
++---------------------------------------------------------------------------------+
+; Fitter Summary                                                                  ;
++------------------------------------+--------------------------------------------+
+; Fitter Status                      ; Successful - Tue May 13 15:27:11 2025      ;
+; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                      ; cnt10                                      ;
+; Top-level Entity Name              ; cnt10                                      ;
+; Family                             ; Cyclone III                                ;
+; Device                             ; EP3C16Q240C8                               ;
+; Timing Models                      ; Final                                      ;
+; Total logic elements               ; 6 / 15,408 ( < 1 % )                       ;
+;     Total combinational functions  ; 5 / 15,408 ( < 1 % )                       ;
+;     Dedicated logic registers      ; 4 / 15,408 ( < 1 % )                       ;
+; Total registers                    ; 4                                          ;
+; Total pins                         ; 5 / 161 ( 3 % )                            ;
+; Total virtual pins                 ; 0                                          ;
+; Total memory bits                  ; 0 / 516,096 ( 0 % )                        ;
+; Embedded Multiplier 9-bit elements ; 0 / 112 ( 0 % )                            ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                              ;
++------------------------------------+--------------------------------------------+
 
 
 +------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -151,15 +151,15 @@ applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 4           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 16          ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 4           ;
+; Maximum used               ; 16          ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ; < 0.1%      ;
+;     Processors 2-16        ; < 0.1%      ;
 +----------------------------+-------------+
 
 
@@ -214,7 +214,7 @@ applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/Administrator/Desktop/lab1_mistake/lab1 mistake2/output_files/cnt10.pin.
+The pin-out file can be found in D:/git/CQUPT_FPGA_Experiments/E1/basicTask/lab1_mistake/lab1 mistake2/output_files/cnt10.pin.
 
 
 +--------------------------------------------------------------------+
@@ -929,12 +929,13 @@ Note: This table only shows the top 2 path(s) that have the largest delay added 
 +-----------------+
 ; Fitter Messages ;
 +-----------------+
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 16 of the 16 processors detected
 Info (119006): Selected device EP3C16Q240C8 for design "cnt10"
 Info (21077): Core supply voltage is 1.2V
 Info (21077): Low junction temperature is 0 degrees C
 Info (21077): High junction temperature is 85 degrees C
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Info (176444): Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
     Info (176445): Device EP3C25Q240C8 is compatible
     Info (176445): Device EP3C40Q240C8 is compatible
@@ -972,7 +973,7 @@ Info (176215): I/O bank details before I/O pin placement
         Info (176213): I/O bank number 6 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  16 pins available
         Info (176213): I/O bank number 7 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  22 pins available
         Info (176213): I/O bank number 8 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  24 pins available
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -984,23 +985,23 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.30 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.19 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file C:/Users/Administrator/Desktop/lab1_mistake/lab1 mistake2/output_files/cnt10.fit.smsg
-Info: Quartus II 64-Bit Fitter was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 1100 megabytes
-    Info: Processing ended: Mon Nov 11 12:18:37 2019
-    Info: Elapsed time: 00:00:06
-    Info: Total CPU time (on all processors): 00:00:06
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
+Info (144001): Generated suppressed messages file D:/git/CQUPT_FPGA_Experiments/E1/basicTask/lab1_mistake/lab1 mistake2/output_files/cnt10.fit.smsg
+Info: Quartus II 64-Bit Fitter was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 6090 megabytes
+    Info: Processing ended: Tue May 13 15:27:11 2025
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:05
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/Administrator/Desktop/lab1_mistake/lab1 mistake2/output_files/cnt10.fit.smsg.
+The suppressed messages can be found in D:/git/CQUPT_FPGA_Experiments/E1/basicTask/lab1_mistake/lab1 mistake2/output_files/cnt10.fit.smsg.
 
 

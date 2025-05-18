@@ -1,6 +1,7 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/Administrator/Desktop/lab1_mistake/lab1 mistake2/cnt10.bdf
-source_file = 1, C:/Users/Administrator/Desktop/lab1_mistake/lab1 mistake2/db/cnt10.cbx.xml
+source_file = 1, D:/git/CQUPT_FPGA_Experiments/E1/basicTask/lab1_mistake/lab1 mistake2/cnt10.bdf
+source_file = 1, D:/git/CQUPT_FPGA_Experiments/E1/basicTask/lab1_mistake/lab1 mistake2/cnt10.vwf
+source_file = 1, D:/git/CQUPT_FPGA_Experiments/E1/basicTask/lab1_mistake/lab1 mistake2/db/cnt10.cbx.xml
 source_file = 1, c:/altera/13.1/quartus/libraries/others/maxplus2/74390.bdf
 design_name = cnt10
 instance = comp, \q[3]~output\, q[3]~output, cnt10, 1

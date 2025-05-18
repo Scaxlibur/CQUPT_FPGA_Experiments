@@ -57,14 +57,14 @@
 # *.sdc # I want those timing files
 
 # ignore Quartus II generated folders
-*/db/
-*/incremental_db/
-*/simulation/
-*/timing/
-*/testbench/
-*/*_sim/
-*/_output_files/
-incremental_db/
-db/
-_output_files/
+*/db
+*/incremental_db
+*/simulation
+*/timing
+*/testbench
+*/*_sim
+*/_output_files
+incremental_db
+db
+_output_files
 PLLJ_PLLSPE_INFO.txt
