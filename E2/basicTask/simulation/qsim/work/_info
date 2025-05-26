@@ -1,0 +1,157 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\git\CQUPT_FPGA_Experiments\E2\basicTask\simulation\qsim
+vfre_div38
+Z1 !s100 kj7S[CBU91MRdUjioKSK43
+Z2 IXkWYWGMVkHzhJaTC@MiNJ2
+Z3 VT^J[glZOCcRF>1:6L:JF51
+Z4 dD:\git\CQUPT_FPGA_Experiments\E2\basicTask\simulation\qsim
+Z5 w1747725459
+Z6 8fre_div38.vo
+Z7 Ffre_div38.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|fre_div38.vo|
+Z10 o-work work -O0
+Z11 !s108 1747725459.561000
+Z12 !s107 fre_div38.vo|
+!i10b 1
+!s85 0
+!s101 -O0
+vfre_div38_vlg_check_tst
+Z13 Ih[9bM3<Glm7^>1f[b6KkX0
+Z14 Vo[>iYQH3o9iLZ0aKlWE`I2
+R4
+Z15 w1747725421
+Z16 8Waveform38_2.vwf.vt
+Z17 FWaveform38_2.vwf.vt
+L0 57
+R8
+r1
+31
+Z18 !s108 1747725423.300000
+Z19 !s107 Waveform38_2.vwf.vt|
+Z20 !s90 -work|work|Waveform38_2.vwf.vt|
+R10
+Z21 !s100 0V@kEDO[cS?Y82?FV=C_10
+!i10b 1
+!s85 0
+!s101 -O0
+vfre_div38_vlg_sample_tst
+Z22 !s100 :0gc`_gMFYT@aNQo[j[ln1
+Z23 I4mLDcSEc]F<o1Ze1XmUCm0
+Z24 VS27mFoF>UIB>[fllKAY2i0
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+31
+R18
+R19
+R20
+R10
+!i10b 1
+!s85 0
+!s101 -O0
+vfre_div38_vlg_vec_tst
+Z25 I^2PiI3OoSQRgW[hFDn;_D0
+Z26 Vo?KW@b>lZcY2b3FO9AniW2
+R4
+Z27 w1747725458
+Z28 8Waveform38.vwf.vt
+Z29 FWaveform38.vwf.vt
+L0 29
+R8
+r1
+31
+Z30 !s90 -work|work|Waveform38.vwf.vt|
+R10
+Z31 !s100 Eho<[AW1jeWa<C^jczkOZ0
+Z32 !s108 1747725459.615000
+Z33 !s107 Waveform38.vwf.vt|
+!i10b 1
+!s85 0
+!s101 -O0
+vm100_38
+Z34 !s100 ;j;S<k3PK;5A::f;RL2?S0
+Z35 IbT[IIG:dJ4f=XOIBjQ4;@2
+Z36 V75EAo6a=^@79mjWFQK1hn1
+R4
+Z37 w1747725638
+R6
+R7
+L0 31
+R8
+r1
+31
+R9
+R10
+!i10b 1
+!s85 0
+Z38 !s108 1747725639.449000
+R12
+!s101 -O0
+vm100_38_vlg_check_tst
+!i10b 1
+Z39 !s100 nD3@Mj9[MJA^B<]]OYNYO1
+Z40 I0B4kFeg;1lBjhjE3oQ^Z@2
+Z41 V:QY`D6RFgCog]TP@zc`z`1
+R4
+R37
+R28
+R29
+L0 57
+R8
+r1
+!s85 0
+31
+Z42 !s108 1747725639.492000
+Z43 !s107 Waveform38.vwf.vt|
+R30
+!s101 -O0
+R10
+vm100_38_vlg_sample_tst
+!i10b 1
+Z44 !s100 LDi]_KV[3aYaIlJ@Ri=c81
+Z45 I^aD=d:W3Y^K]>9XjaZ[T@2
+Z46 Vm7lG;mj2BM<5UMz4<AN3j3
+R4
+R37
+R28
+R29
+L0 29
+R8
+r1
+!s85 0
+31
+R42
+R43
+R30
+!s101 -O0
+R10
+vm100_38_vlg_vec_tst
+!i10b 1
+Z47 !s100 o=kWRY_4XLU2Ghh0Dm9bR2
+Z48 IMQHejokoDT?oY:b1SHL<L2
+Z49 V;`>SEz@gEj:3b7Yo=6HXm3
+R4
+R37
+R28
+R29
+Z50 L0 153
+R8
+r1
+!s85 0
+31
+R42
+R43
+R30
+!s101 -O0
+R10
