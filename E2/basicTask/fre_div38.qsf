@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone III"
 set_global_assignment -name DEVICE EP3C16Q240C8
-set_global_assignment -name TOP_LEVEL_ENTITY fre_div38
+set_global_assignment -name TOP_LEVEL_ENTITY mux3_38
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:48:03  MAY 20, 2025"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
@@ -52,16 +52,19 @@ set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda
 set_global_assignment -name BDF_FILE m100_38.bdf
 set_global_assignment -name SDC_FILE fre_div38.sdc
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform38.vwf
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "D:/git/CQUPT_FPGA_Experiments/E2/basicTask/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "F:/git/CQUPT_FPGA_Experiments/E2/basicTask/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name BDF_FILE fre_div38.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform38_2.vwf
 set_global_assignment -name SDC_FILE m100_38.sdc
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
 set_location_assignment PIN_239 -to clk_1Hz_38
 set_location_assignment PIN_31 -to clk_50MHz_38
 set_location_assignment PIN_174 -to clk_500Hz_38
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE mux3_38.bdf
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

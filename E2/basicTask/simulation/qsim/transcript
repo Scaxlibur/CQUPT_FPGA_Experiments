@@ -2,36 +2,25 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # 
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module m100_38
+# -- Compiling module mux3_38
 # 
 # Top level modules:
-# 	m100_38
+# 	mux3_38
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-# -- Compiling module m100_38_vlg_sample_tst
-# -- Compiling module m100_38_vlg_check_tst
-# -- Compiling module m100_38_vlg_vec_tst
+# -- Compiling module mux3_38_vlg_sample_tst
+# -- Compiling module mux3_38_vlg_check_tst
+# -- Compiling module mux3_38_vlg_vec_tst
 # 
 # Top level modules:
-# 	m100_38_vlg_vec_tst
-# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.m100_38_vlg_vec_tst 
-# Loading work.m100_38_vlg_vec_tst
-# Loading work.m100_38
+# 	mux3_38_vlg_vec_tst
+# vsim -L cycloneiii_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.mux3_38_vlg_vec_tst 
+# Loading work.mux3_38_vlg_vec_tst
+# Loading work.mux3_38
 # Loading cycloneiii_ver.cycloneiii_io_obuf
 # Loading cycloneiii_ver.cycloneiii_io_ibuf
 # Loading cycloneiii_ver.cycloneiii_lcell_comb
-# Loading altera_ver.dffeas
-# Loading work.m100_38_vlg_sample_tst
-# Loading work.m100_38_vlg_check_tst
-# SDF 10.1d Compiler 2012.11 Nov  2 2012
-# 
-# Loading instances from fre_div38_v.sdo
-# Loading altera_ver.PRIM_GDFF_LOW
-# Loading timing data from fre_div38_v.sdo
-# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /m100_38_vlg_vec_tst File: Waveform38.vwf.vt
-# ERROR! Vector Mismatch for output port clkout38 :: @time = 1620000.000 ps
-#      Expected value = 0
-#      Real value = 1
-#           1 mismatched vectors : Simulation failed !
-# ** Note: $finish    : Waveform38.vwf.vt(149)
-#    Time: 4200 ns  Iteration: 0  Instance: /m100_38_vlg_vec_tst/tb_out
+# Loading work.mux3_38_vlg_sample_tst
+# Loading work.mux3_38_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform3.vwf.vt(154)
+#    Time: 900 ns  Iteration: 0  Instance: /mux3_38_vlg_vec_tst/tb_out

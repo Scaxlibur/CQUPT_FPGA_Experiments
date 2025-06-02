@@ -23,7 +23,7 @@
 
 # Clock constraints
 
-create_clock -name "clk38" -period 20.000ns [get_ports {clk38}]
+create_clock -name "clk38" -period 50.000ns [get_ports {clkclk__1khz_38}]
 
 
 # Automatically constrain PLL and other generated clocks
